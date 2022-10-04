@@ -12,7 +12,6 @@ public class Magazine implements Printable{
     public String getName() {
         return name;
     }
-
     static void printMagazines(Printable[] printable) {
         for (Printable pr : printable) {
             if (pr instanceof Magazine) {
